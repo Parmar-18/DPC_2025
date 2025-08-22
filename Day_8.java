@@ -1,6 +1,6 @@
 //  Reverse a String Word by Word
 
-class DPP_8 {
+class Day_8 {
     public String reverseWords(String s) {
         String[] words = s.trim().split("\\s+");
         
@@ -14,7 +14,7 @@ class DPP_8 {
     }
 
     public static void main(String[] args) {
-        DPP_8 solver = new DPP_8();
+        Day_8 solver = new Day_8();
         String input = "the sky is blue";
         System.out.println(solver.reverseWords(input)); 
 
